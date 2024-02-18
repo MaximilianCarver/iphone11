@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: # Agrega esta sección para habilitar ejecuciones manuales
   pull_request:
 
 jobs:
